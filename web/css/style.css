@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 2, 2024, 10:16:55 AM
+    Author     : Administrator
+*/
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.top{
+    width: 50%;
+}
+.middle{
+    width: 50%;
+}
+.top{
+    background-image: url(image/nen1.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -43px;
+}
+.roll{
+    width: 100%;
+}
+
+#img1{
+    position: relative;
+    bottom: 404px;
+    left: 293px;
+    width: 20%;
+    opacity: 0;
+}
+
+#img2{
+    position: relative;
+    bottom: 231px;
+    right: -38px;
+    width: 20%;
+    opacity: 0;
+}
+
+#img3{
+    position: relative;
+    top: -231px;
+    right: -94px;
+    width: 20%;
+    opacity: 0;
+}
+
+.button_roll{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -55px;
+}
+
+#nap{
+    position: relative;
+    top: 58px;
+    left: 68px;
+    width: 82%;
+   
+}
+.hidden {
+   opacity: 0;
+}
+
+.choose{
+    border: 5px;
+    border-radius: 115px;
+    border-color: red;
+}
+
+.dice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dice button{
+    border-radius: 133px;
+    border-width: 6px;
+    border-color: green;
+}

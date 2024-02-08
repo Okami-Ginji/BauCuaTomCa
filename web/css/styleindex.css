@@ -1,0 +1,170 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 2, 2024, 10:16:55 AM
+    Author     : Administrator
+*/
+.flex{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(image/nen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+}
+.top{
+    width: 50%;
+}
+.middle{
+    width: 50%;
+}
+.top{
+    background-image: url(image/nen1.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -43px;
+}
+.roll{
+    width: 100%;
+}
+
+#img1{
+    position: relative;
+    bottom: 380px;
+    left: 293px;
+    width: 20%;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+#img2{
+    position: relative;
+    bottom: 200px;
+    right: -38px;
+    width: 20%;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+#img3{
+    position: relative;
+    top: -200px;
+    right: -94px;
+    width: 20%;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.button_roll{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -68px;
+}
+
+#nap{
+    position: relative;
+    top: 74px;
+    left: 68px;
+    width: 82%;
+   
+}
+.hidden {
+   opacity: 0;
+}
+
+.choose{
+    border: 5px;
+    border-radius: 115px;
+    border-color: red;
+}
+
+.dice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dice button{
+    border-radius: 133px;
+    border-width: 6px;
+    border-color: green;
+}
+
+.inputmoney{
+/*    margin-top: 33px;
+    margin-left: 30px;*/
+    width: 35%;
+    height: 32px;
+}
+.form-bottom{
+/*    display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+}
+
+
+.money-button{
+    display: flex;
+}
+h1{
+    margin: -2px 0 0 0;
+    color: #FF0;
+    font-size: 24px;
+    text-shadow: 0px 0px 10px #F00;
+    border: solid;
+    padding: 7px 58px;
+    border-radius: 5px;
+}
+.button-left{
+    width: 130px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #FFF;
+    border: 1px #FF0000 solid;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #FF0000;
+    cursor: pointer;
+}
+
+.money-input{
+    background-color: transparent;
+    margin-top: 10px;
+    color: #0F0;
+    font-weight: bold;
+    font-size: 16px;
+    width: 78%;
+    text-shadow: 0px 0px 10px #FFF;
+    border: 7px black double;
+    text-align: right;
+    cursor: pointer;
+}
+.button-right{
+    margin-top: 55px;
+    width: 130px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #FFF;
+    border: 1px #FF0000 solid;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #FF0000;
+    cursor: pointer;
+}
+
+.message{
+    margin-top: 21px;
+    height: 84px;
+    width: 75%;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px red;
+}
